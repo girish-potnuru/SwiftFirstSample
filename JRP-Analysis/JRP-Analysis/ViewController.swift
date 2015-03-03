@@ -14,6 +14,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     let displayArra = ["IOS","Android","Windows","J2ME"];
     let textCellIdentifier = "TextCell"
+    
+    //Live testing
 
     override func viewDidLoad()
     {
