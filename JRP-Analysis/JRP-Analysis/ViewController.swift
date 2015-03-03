@@ -43,7 +43,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 
         let cell = tableView.dequeueReusableCellWithIdentifier(textCellIdentifier, forIndexPath: indexPath) as UITableViewCell
         let row = indexPath.row;
-        cell.textLabel.text = displayArra[row];
+        //cell.textLabel.text = displayArra[row];
         return cell;
     }
     
@@ -73,6 +73,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             }
             else {
                 let status:String? = json["msg"] as? String
+                println("server status: \(json.allKeys)");
                 println("server status: \(json.allKeys)");
                 println("server status: \(json.allValues)");
             }
