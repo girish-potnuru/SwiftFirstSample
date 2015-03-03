@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC26CF71AA56E32009EA5E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC26CF61AA56E32009EA5E4 /* AppDelegate.swift */; };
+		ECC26CFA1AA56E32009EA5E4 /* JRP_Analysis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECC26CF81AA56E32009EA5E4 /* JRP_Analysis.xcdatamodeld */; };
+		ECC26CFC1AA56E32009EA5E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC26CFB1AA56E32009EA5E4 /* ViewController.swift */; };
+		ECC26CFF1AA56E32009EA5E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC26CFD1AA56E32009EA5E4 /* Main.storyboard */; };
+		ECC26D011AA56E32009EA5E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC26D001AA56E32009EA5E4 /* Images.xcassets */; };
+		ECC26D041AA56E32009EA5E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC26D021AA56E32009EA5E4 /* LaunchScreen.xib */; };
+		ECC26D101AA56E32009EA5E4 /* JRP_AnalysisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC26D0F1AA56E32009EA5E4 /* JRP_AnalysisTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC26D0A1AA56E32009EA5E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC26CE91AA56E31009EA5E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC26CF01AA56E31009EA5E4;
+			remoteInfo = "JRP-Analysis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC26CF11AA56E32009EA5E4 /* JRP-Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JRP-Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC26CF51AA56E32009EA5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC26CF61AA56E32009EA5E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECC26CF91AA56E32009EA5E4 /* JRP_Analysis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JRP_Analysis.xcdatamodel; sourceTree = "<group>"; };
+		ECC26CFB1AA56E32009EA5E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECC26CFE1AA56E32009EA5E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC26D001AA56E32009EA5E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECC26D031AA56E32009EA5E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECC26D091AA56E32009EA5E4 /* JRP-AnalysisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JRP-AnalysisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC26D0E1AA56E32009EA5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC26D0F1AA56E32009EA5E4 /* JRP_AnalysisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRP_AnalysisTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC26CEE1AA56E31009EA5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC26D061AA56E32009EA5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC26CE81AA56E31009EA5E4 = {
+			isa = PBXGroup;
+			children = (
+				ECC26CF31AA56E32009EA5E4 /* JRP-Analysis */,
+				ECC26D0C1AA56E32009EA5E4 /* JRP-AnalysisTests */,
+				ECC26CF21AA56E32009EA5E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC26CF21AA56E32009EA5E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC26CF11AA56E32009EA5E4 /* JRP-Analysis.app */,
+				ECC26D091AA56E32009EA5E4 /* JRP-AnalysisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC26CF31AA56E32009EA5E4 /* JRP-Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				ECC26CF61AA56E32009EA5E4 /* AppDelegate.swift */,
+				ECC26CFB1AA56E32009EA5E4 /* ViewController.swift */,
+				ECC26CFD1AA56E32009EA5E4 /* Main.storyboard */,
+				ECC26D001AA56E32009EA5E4 /* Images.xcassets */,
+				ECC26D021AA56E32009EA5E4 /* LaunchScreen.xib */,
+				ECC26CF81AA56E32009EA5E4 /* JRP_Analysis.xcdatamodeld */,
+				ECC26CF41AA56E32009EA5E4 /* Supporting Files */,
+			);
+			path = "JRP-Analysis";
+			sourceTree = "<group>";
+		};
+		ECC26CF41AA56E32009EA5E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC26CF51AA56E32009EA5E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC26D0C1AA56E32009EA5E4 /* JRP-AnalysisTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC26D0F1AA56E32009EA5E4 /* JRP_AnalysisTests.swift */,
+				ECC26D0D1AA56E32009EA5E4 /* Supporting Files */,
+			);
+			path = "JRP-AnalysisTests";
+			sourceTree = "<group>";
+		};
+		ECC26D0D1AA56E32009EA5E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC26D0E1AA56E32009EA5E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC26CF01AA56E31009EA5E4 /* JRP-Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC26D131AA56E32009EA5E4 /* Build configuration list for PBXNativeTarget "JRP-Analysis" */;
+			buildPhases = (
+				ECC26CED1AA56E31009EA5E4 /* Sources */,
+				ECC26CEE1AA56E31009EA5E4 /* Frameworks */,
+				ECC26CEF1AA56E31009EA5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JRP-Analysis";
+			productName = "JRP-Analysis";
+			productReference = ECC26CF11AA56E32009EA5E4 /* JRP-Analysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC26D081AA56E32009EA5E4 /* JRP-AnalysisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC26D161AA56E32009EA5E4 /* Build configuration list for PBXNativeTarget "JRP-AnalysisTests" */;
+			buildPhases = (
+				ECC26D051AA56E32009EA5E4 /* Sources */,
+				ECC26D061AA56E32009EA5E4 /* Frameworks */,
+				ECC26D071AA56E32009EA5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC26D0B1AA56E32009EA5E4 /* PBXTargetDependency */,
+			);
+			name = "JRP-AnalysisTests";
+			productName = "JRP-AnalysisTests";
+			productReference = ECC26D091AA56E32009EA5E4 /* JRP-AnalysisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC26CE91AA56E31009EA5E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Girish;
+				TargetAttributes = {
+					ECC26CF01AA56E31009EA5E4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					ECC26D081AA56E32009EA5E4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = ECC26CF01AA56E31009EA5E4;
+					};
+				};
+			};
+			buildConfigurationList = ECC26CEC1AA56E31009EA5E4 /* Build configuration list for PBXProject "JRP-Analysis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC26CE81AA56E31009EA5E4;
+			productRefGroup = ECC26CF21AA56E32009EA5E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC26CF01AA56E31009EA5E4 /* JRP-Analysis */,
+				ECC26D081AA56E32009EA5E4 /* JRP-AnalysisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC26CEF1AA56E31009EA5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC26CFF1AA56E32009EA5E4 /* Main.storyboard in Resources */,
+				ECC26D041AA56E32009EA5E4 /* LaunchScreen.xib in Resources */,
+				ECC26D011AA56E32009EA5E4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC26D071AA56E32009EA5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC26CED1AA56E31009EA5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC26CFC1AA56E32009EA5E4 /* ViewController.swift in Sources */,
+				ECC26CFA1AA56E32009EA5E4 /* JRP_Analysis.xcdatamodeld in Sources */,
+				ECC26CF71AA56E32009EA5E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC26D051AA56E32009EA5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC26D101AA56E32009EA5E4 /* JRP_AnalysisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC26D0B1AA56E32009EA5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC26CF01AA56E31009EA5E4 /* JRP-Analysis */;
+			targetProxy = ECC26D0A1AA56E32009EA5E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC26CFD1AA56E32009EA5E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC26CFE1AA56E32009EA5E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC26D021AA56E32009EA5E4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC26D031AA56E32009EA5E4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC26D111AA56E32009EA5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC26D121AA56E32009EA5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC26D141AA56E32009EA5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JRP-Analysis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECC26D151AA56E32009EA5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JRP-Analysis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECC26D171AA56E32009EA5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JRP-AnalysisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRP-Analysis.app/JRP-Analysis";
+			};
+			name = Debug;
+		};
+		ECC26D181AA56E32009EA5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JRP-AnalysisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRP-Analysis.app/JRP-Analysis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC26CEC1AA56E31009EA5E4 /* Build configuration list for PBXProject "JRP-Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC26D111AA56E32009EA5E4 /* Debug */,
+				ECC26D121AA56E32009EA5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC26D131AA56E32009EA5E4 /* Build configuration list for PBXNativeTarget "JRP-Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC26D141AA56E32009EA5E4 /* Debug */,
+				ECC26D151AA56E32009EA5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECC26D161AA56E32009EA5E4 /* Build configuration list for PBXNativeTarget "JRP-AnalysisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC26D171AA56E32009EA5E4 /* Debug */,
+				ECC26D181AA56E32009EA5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECC26CF81AA56E32009EA5E4 /* JRP_Analysis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECC26CF91AA56E32009EA5E4 /* JRP_Analysis.xcdatamodel */,
+			);
+			currentVersion = ECC26CF91AA56E32009EA5E4 /* JRP_Analysis.xcdatamodel */;
+			path = JRP_Analysis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECC26CE91AA56E31009EA5E4 /* Project object */;
+}
